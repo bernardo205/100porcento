@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CemPorcento")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16663df64b444330c4c98e56725dbc5ccb72b8cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56b33f14ce19e45bb82f15bd76a4aab9f9c65fe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CemPorcento")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CemPorcento")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\Asset 4.png",
       "PackagePath": "staticwebassets\\img\\Assets\\Asset 4.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Cem Porcento_logo.png",
+      "PackagePath": "staticwebassets\\img\\Cem Porcento_logo.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\arrow-down-sign-to-navigate.png",
@@ -107,6 +115,10 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\down-arrow(1).png",
       "PackagePath": "staticwebassets\\img\\Icons\\down-arrow(1).png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\england-flag_11784787.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\england-flag_11784787.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\envelope(1).png",
@@ -199,6 +211,10 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\phone-call.png",
       "PackagePath": "staticwebassets\\img\\Icons\\phone-call.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\portugal_8603465.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\portugal_8603465.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\procurar(1).png",

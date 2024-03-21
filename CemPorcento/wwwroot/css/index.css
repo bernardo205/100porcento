@@ -1,0 +1,206 @@
+﻿.big-img {
+    position:relative;
+    top:0px;
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    line-height: 200px;
+    color: #999;
+}
+
+.first-card-area{
+    margin: 5%;
+    height: 150px;
+    display: flex;
+}
+
+.first-card-area .no-img {
+    width: 25%;
+    height: 144px;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    line-height: 200px;
+    color: #999;
+    border-radius: 15px;
+    margin: 0.2%;
+}
+
+.nini-text-area {
+    width: 150px;
+    position: relative;
+    left: 6%;
+}
+
+.nini-text-area p {
+    font-size: 25px;
+}
+
+.nini-text-area strong{
+    font-size: 40px;
+    position: relative;
+    top: -20px;
+    color: olivedrab;
+}
+
+.nini-text-area span {
+    position: relative;
+    top: -20px;
+}
+
+.second-card-area {
+    margin: -50px 5% 70px;
+    height: 500px;
+    display: flex;
+    gap: 3%;
+    
+}
+
+.c-1 {
+    width: 60%;
+    border: 1px dashed #ccc;
+}
+
+.c-1-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 80%
+}
+
+.col-1, .col-2 {
+    width: 30%;
+}
+
+.sub-col {
+    display: flex;
+    gap: 11.98px;
+}
+
+.c-2 {
+    height: 174.44px;
+    margin-bottom: 24.92px;
+    border: 1px dashed #ccc;
+    display: flex;
+}
+
+.c-2-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 100%;
+    width:192.08px;
+}
+
+.c-3, .c-4 {
+    width: 193.68px;
+    height: 299.04px;
+    border: 1px dashed #ccc;
+}
+
+.c-3-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 65%
+}
+
+.c-4-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 65%
+}
+
+.c-5 {
+    height: 299.04px;
+    margin-bottom: 24.92px;
+    border: 1px dashed #ccc;
+}
+
+.c-5-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 70%;
+}
+
+.c-6 {
+    height: 174.44px;
+    border: 1px dashed #ccc;
+    display: flex;
+}
+
+.c-6-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    width: 40%;
+    height: 100%;
+}
+
+.third-card-area{
+    height: 648px;
+    background-color: lightgray;
+    mask: url(../img/bar.png);
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+}
+.slogan{
+    color: green;
+    position: relative;
+    top: 90px;
+    text-align: center
+}
+
+.slogan p {
+    font-size:35px;
+}
+
+.slogan strong {
+    font-size: 100px;
+    position: relative;
+    top: -50px;
+}
+
+.slogan .citacao{
+    color: darkgreen;
+    font-size: 15px;
+    width: 480px;
+    position: relative;
+    top: -75px;
+    left: 35%
+}
+
+.slogan .name{
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: -95px;
+}
+
+.third-card-area .card-area {
+    margin: 5%;
+    height: 300px;
+    display: flex;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    z-index: 1;
+}
+.extend-mask {
+    position: relative;
+    top: 300px;
+    height: 648px;
+    background-color: black;
+    mask: url(../img/bar.png);
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+}

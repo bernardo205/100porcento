@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5AToPuLtdEX/HDP6XfNvfNOMg/wJLsWpUSMHLxqX2Vs=",
+  "Hash": "Q+rnmFnqRO0Koopdf/amdruA8iw+289OtiiEk3X/pXw=",
   "Source": "CemPorcento",
   "BasePath": "_content/CemPorcento",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\index.css",
+      "SourceId": "CemPorcento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\",
+      "BasePath": "_content/CemPorcento",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\site.css",
       "SourceId": "CemPorcento",
@@ -224,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\bar.png"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Cem Porcento_logo.png",
+      "SourceId": "CemPorcento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\",
+      "BasePath": "_content/CemPorcento",
+      "RelativePath": "img/Cem Porcento_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Cem Porcento_logo.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\ff.png",
@@ -604,6 +642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Icons\\down-arrow(1).png"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\england-flag_11784787.png",
+      "SourceId": "CemPorcento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\",
+      "BasePath": "_content/CemPorcento",
+      "RelativePath": "img/Icons/england-flag_11784787.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\england-flag_11784787.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\envelope(1).png",
@@ -1041,6 +1098,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Icons\\phone-call.png"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\portugal_8603465.png",
+      "SourceId": "CemPorcento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\",
+      "BasePath": "_content/CemPorcento",
+      "RelativePath": "img/Icons/portugal_8603465.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\portugal_8603465.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\procurar(1).png",

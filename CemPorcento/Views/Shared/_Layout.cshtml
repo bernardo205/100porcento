@@ -9,48 +9,145 @@
     <link rel="stylesheet" href="~/CemPorcento.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <div class="icon-1"></div>
-        <p class="h-p-1">Envio grátis paea compras <strong>>25&euro;</strong>(PT Continental). Termine a sua encomenda em <span id="timer"><strong></strong></span> e receba-a amanhã! </p>
-        <div class="dropdown">
+    <header>   
+        <div class="top-section">
+            <div class="icon-1"></div>
+            <p class="h-p-1">
+                Envio grátis paea compras <strong>>25&euro;</strong>(PT Continental). 
+                Termine a sua encomenda em <strong><span id="timer"></span></strong> 
+                e receba-a amanhã! 
+            </p>
             <div class="icon-2"></div>
-            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Ajuda? Apoio ao cliente
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ajuda? Apoio ao cliente
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="icon-3"></div>
+            <p class="h-p-2">Login/Conta</p>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    EUR &euro;                                                                                                                                  
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">USD &dollar;</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="~/img/Icons/portugal_8603465.png" style="width: 25px;">
+                    PT
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">
+                            <img src="~/img/Icons/england-flag_11784787.png" style="width: 25px;">
+                            EN
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="icon-3"></div>
-        <p class="h-p-2">Login/Conta</p>
-        <div class="dropdown">
-            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                EUR &euro;
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">USD &dollar;</a></li>
-            </ul>
-        </div>
-        <div class="dropdown">
-            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                PT
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">EN</a></li>
-            </ul>
-        </div>
-        <div class="header-mask">
-            <p>test</p>
-        </div>
+        <ul class="nav n-m">
+            <li class="nav-item dropdown">
+				<button class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Submenu &raquo;
+                        </a>
+                        <ul class="dropdown-menu dropdown-submenu" style="width:800px">
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="column">
+                                        <h3>Category 1</h3>
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Category 2</h3>
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Category 3</h3>
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Submenu &raquo;
+                        </a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Submenu &raquo;
+                        </a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Submenu &raquo;
+                        </a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Submenu &raquo;
+                        </a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+		<div class="mask"></div>
+		<nav class="navbar navbar-expand-lg navbar-light bar ">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
+    @RenderBody()
     <footer>
 
     </footer>
