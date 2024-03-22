@@ -153,12 +153,16 @@
     mask: url(../img/bar.png);
     mask-size: 100%;
     mask-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
 }
-.slogan{
+
+.slogan {
     color: green;
     position: relative;
-    top: 90px;
-    text-align: center
+    top: -490px;
+    text-align: center;
+    z-index: 2;
 }
 
 .slogan p {
@@ -177,7 +181,8 @@
     width: 480px;
     position: relative;
     top: -75px;
-    left: 35%
+    left: 35%;  
+
 }
 
 .slogan .name{
@@ -187,20 +192,174 @@
     top: -95px;
 }
 
-.third-card-area .card-area {
+.area-card {
     margin: 5%;
     height: 300px;
-    display: flex;
-    background-color: #f0f0f0;
-    border: 1px dashed #ccc;
-    z-index: 1;
+    position:relative;
+    z-index: 2;
+    top: -600px;
 }
+
 .extend-mask {
-    position: relative;
-    top: 300px;
     height: 648px;
-    background-color: black;
+    background-color: lightgray;
     mask: url(../img/bar.png);
     mask-size: 100%;
     mask-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    top: -1200px;
+}
+
+.top, .bottom{
+    height: 50%;
+    display:flex;
+    gap: 2.5%;
+}
+
+.top{
+    margin-bottom:5px;
+}
+
+.t-c-1, .t-c-2 {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+}
+
+.t-c-1 {
+    width: 30%;
+ 
+}
+
+.t-c-2 {
+    width: 60%;
+}
+
+.fourth-card-area {
+    position: relative;
+    top: -1200px;
+}
+
+.fourth-card-area p{
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.fourth-card-area strong {
+    font-size: 30px;
+    color: darkorange;
+}
+
+.f-card-area {
+    margin: 5%;
+    height: 380px;
+    display: flex;
+    gap: 3px;
+}
+
+.f-card {
+    width: 220px;
+}
+
+.f-c-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 60%;
+}
+
+.f-c-text {
+    border: 1px dashed #ccc;
+    color: #999;
+    height:40%
+}
+
+.fift-card-area {
+    position: relative;
+    top: -1200px;
+}
+
+.fift-card-area .text{
+    text-align: center
+}
+
+.fi-card-area {
+    margin: 0.5%;
+    height: 250px;
+    display: flex;
+    gap: 0.1%
+}
+
+.fi-c {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    color: #999;
+    border-radius: 15px;
+    width: 25%
+}
+
+.istagram {
+    height: 30px;
+    width: 340px;
+    position: relative;
+    left: 65%;
+    display: flex;
+    gap: 10px;
+}
+
+.insta-img {
+    height: 25px;
+    width: 25px;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+}
+
+.sixt-card-area {
+    height: 648px;
+    background-color: lightgray;
+    mask: url(../img/bar.png);
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    position: relative;
+   top: -1100px;
+}
+
+.s-c-p{
+    position: relative;
+    top: 150px;
+    color: #eead2d;
+}
+
+.s-c {
+    margin: 5%;
+    height: 350px;
+    display:flex;
+    position: relative;
+    top: 95px;
+    gap: 1%
+}
+
+.s-card {
+    width: 40%;
+    border: 1px dashed #ccc;
+    color: #999;
+    border-radius: 15px;
+}
+
+.s-c-img {
+    height: 70%;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    color: #999;
+    border-radius: 15px;
+}
+
+.s-c-text {
+    height: 30%;
+    background-color: white;
+    border: 1px dashed #ccc;
+    color: black;
 }

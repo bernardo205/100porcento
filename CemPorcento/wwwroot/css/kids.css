@@ -1,0 +1,151 @@
+﻿.test {
+    height: 150px;
+    mask: url(../img/bar.png);
+    background-color: darkgray;
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    mask-position: 0% 100%;
+    position: relative;
+    top: -20px;
+    z-index: 2;
+}
+
+.tes {
+    position: relative;
+    top: -20px;
+    height: 890px;
+    background-color: darkgray;
+    z-index: 3;
+}
+
+.form {
+    position: relative;
+    top: 200px;
+    align-items:center;
+    display: flex;
+    z-index:3;
+}
+
+.c-a-p {
+    position: relative;
+    top: 240px;
+    left: 90px;
+    font-size: 25px;
+}
+
+.c-a-p strong{
+    color: green;
+    font-size:45px;
+}
+
+.first-card-area {
+    margin: 0px 5%;
+    height: 500px;
+    display: flex;
+    gap: 3%;
+    position: relative;
+    top: 300px;
+}
+
+.c-1 {
+    width: 60%;
+    border: 1px dashed #ccc;
+}
+
+.c-1-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 80%
+}
+
+.col-1, .col-2 {
+    width: 30%;
+}
+
+.sub-col {
+    display: flex;
+    gap: 11.98px;
+}
+
+.c-2 {
+    height: 174.44px;
+    margin-bottom: 24.92px;
+    border: 1px dashed #ccc;
+    display: flex;
+}
+
+.c-2-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 100%;
+    width: 192.08px;
+}
+
+.c-3, .c-4 {
+    width: 193.68px;
+    height: 299.04px;
+    border: 1px dashed #ccc;
+}
+
+.c-3-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 65%
+}
+
+.c-4-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 65%
+}
+
+.c-5 {
+    height: 299.04px;
+    margin-bottom: 24.92px;
+    border: 1px dashed #ccc;
+}
+
+.c-5-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 70%;
+}
+
+.second-card-area {
+    position: relative;
+}
+
+.s-card-area {
+    margin: 5%;
+    height: 380px;
+    display: flex;
+    gap: 3px;
+}
+
+.s-card {
+    width: 220px;
+}
+
+.s-c-img {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    height: 60%;
+}
+
+.s-c-text {
+    border: 1px dashed #ccc;
+    color: #999;
+    height: 40%
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q+rnmFnqRO0Koopdf/amdruA8iw+289OtiiEk3X/pXw=",
+  "Hash": "Lhr2PmUIaL4z41CWpGiXXQbHhIDvKSWR+d6wqqJ4Vso=",
   "Source": "CemPorcento",
   "BasePath": "_content/CemPorcento",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\kids.css",
+      "SourceId": "CemPorcento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\",
+      "BasePath": "_content/CemPorcento",
+      "RelativePath": "css/kids.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\kids.css"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\site.css",
