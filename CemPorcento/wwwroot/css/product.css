@@ -1,0 +1,119 @@
+﻿header{
+    top:0px;
+}
+
+
+
+.main-part {
+    height: 1500px;
+    position: relative;
+    top: 120px;
+}
+
+.links{
+   margin: 5%;
+   display: flex;
+   gap: 600px
+}
+
+.links nav{
+    width:310px;
+}
+
+.links a {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+.back{
+    display: flex;
+    color: lawngreen;
+}
+
+.back a {
+    position:relative;
+    top:-5px;
+}
+
+.product-area {
+    margin: -5% 5%;
+}
+
+.top-product-area {
+    display: flex;
+    gap: 100px;
+    height: 800px;
+}
+
+.img-area {
+    width: 800px;
+    height: 750px;
+    display: flex;
+    gap: 50px;
+}
+
+.preview-img div {
+    width: 200px;
+    height: 200px;
+
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    line-height: 200px;
+    color: #999;
+    border-radius: 15px;
+}
+
+.product-img {
+    width: 80%;
+
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    line-height: 200px;
+    color: #999;
+    border-radius: 15px;
+}
+
+.info-area {
+    width: 500px;
+    height: 1060px;
+}
+
+.info-card {
+    height: 10.5%;
+
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #999;
+    border-radius: 15px;
+}
+
+.i-c-6 {
+    height: 25%;
+    border: 1px dashed #ccc;
+}
+
+.i-c-6 p {
+    height: 10%;
+}
+
+.mini-cards {
+    display: flex;
+    border: 1px dashed #ccc;
+    height: 90%;
+}
+
+.mini-cards div {
+    width: 50%;
+}
+
+.description-area{
+    width: 800px;
+}
+
+.sugestion{
+    position: relative;
+    top: 0px;
+}

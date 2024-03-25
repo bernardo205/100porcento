@@ -10,5 +10,8 @@ namespace CemPorcento.Controllers
 
         [HttpGet("/kids")]
         public IActionResult Kids() => View();
+
+        [HttpGet("/product")]
+        public IActionResult Product() => View();
     }
 }

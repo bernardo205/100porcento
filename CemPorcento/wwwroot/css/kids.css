@@ -121,31 +121,13 @@
     height: 70%;
 }
 
-.second-card-area {
+
+/*.page-btn {
     position: relative;
+    top: 25px;
+    left: 450px;
 }
 
-.s-card-area {
-    margin: 5%;
-    height: 380px;
-    display: flex;
-    gap: 3px;
-}
-
-.s-card {
-    width: 220px;
-}
-
-.s-c-img {
-    background-color: #f0f0f0;
-    border: 1px dashed #ccc;
-    text-align: center;
-    color: #999;
-    height: 60%;
-}
-
-.s-c-text {
-    border: 1px dashed #ccc;
-    color: #999;
-    height: 40%
-}
+    .page-btn button {
+        background-color: lawngreen;
+    }*/
