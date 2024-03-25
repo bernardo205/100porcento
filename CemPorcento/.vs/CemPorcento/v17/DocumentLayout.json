@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\wwwroot\\css\\product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:wwwroot\\css\\product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "product.css",
-              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\product.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\product.css",
-              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\product.css",
-              "RelativeToolTip": "wwwroot\\css\\product.css",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAAHUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-25T11:43:14.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Product.cshtml",
-              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Home\\Product.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Product.cshtml",
-              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Home\\Product.cshtml",
-              "RelativeToolTip": "Views\\Home\\Product.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T11:42:55.242Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-25T15:43:44.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAUwLMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T15:43:47.517Z",
+              "EditorCaption": ""
             }
           ]
         }

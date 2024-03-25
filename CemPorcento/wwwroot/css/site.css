@@ -16,6 +16,7 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  z-index: -1;
 }
 
 body {
@@ -98,8 +99,8 @@ header button {
 }
 
 .n-m button{   
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: olivedrab;
     mask: url("../img/Icons/menu(5).png");
     mask-size: 100%;
@@ -123,6 +124,7 @@ nav {
     position: relative;
     top: 0px;
     left: 115px;
+    font-size: 13px;
 }
 
 .mask {
@@ -170,7 +172,7 @@ nav {
 .dropdown-submenu {
     height: 500px;
 }
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -179,26 +181,22 @@ nav {
     z-index: 1;
 }
 
-/* Mega Menu header, if needed */
 .dropdown-content .header {
     background: red;
     padding: 16px;
     color: white;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
     width: 25%; 
     height: 250px;
     margin-left: 6.25%
 }
 
-/* Style links inside the columns */
 .column a {
     float: none;
     color: black;
@@ -208,7 +206,14 @@ nav {
     text-align: left;
 }
 
-/* Add a background color on hover */
 .column a:hover {
     background-color: #ddd;
+}
+
+
+
+
+footer{
+    background-color: white;
+    display: flex;
 }

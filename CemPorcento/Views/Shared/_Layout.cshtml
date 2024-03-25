@@ -19,7 +19,7 @@
             </p>
             <div class="icon-2"></div>
             <div class="dropdown">
-                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Ajuda? Apoio ao cliente
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -31,7 +31,7 @@
             <div class="icon-3"></div>
             <p class="h-p-2">Login/Conta</p>
             <div class="dropdown">
-                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     EUR &euro;                                                                                                                                  
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -39,7 +39,7 @@
                 </ul>
             </div>
             <div class="dropdown">
-                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="~/img/Icons/portugal_8603465.png" style="width: 25px;">
                     PT
                 </button>
@@ -52,6 +52,8 @@
                 </ul>
             </div>
         </div>
+        
+        
         <ul class="nav n-m">
             <li class="nav-item dropdown">
 				<button class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
@@ -134,13 +136,37 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active disabled" aria-current="page" href="#" style="position: relative; top: 50px;">Alimentação</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#" style="position: relative; top: 50px;">Suplementos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link disabled" href="#" style="position: relative; top: 50px;">Cosmetica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" style="position: relative; top: 50px;">Nutrição despostiva</a>
+                        </li>
+                        <li class="nav-item nav-img">
+                            <a class="nav-link disabled" href="#"><img src="~/img/Cem Porcento_logo.png" width="110" height="auto" style="position: relative; left: 190px; top: 43px;" /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" style="position: relative; top: 50px; left:300px;">Slim Verão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" style="position: relative; top: 50px; left:300px;">Novas Marinheiras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" style="position: relative; top: 50px; left:300px;"><img src="~/img/Icons/promotions.png" width="20px" /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" style="position: relative; top: 50px; left:300px;"><img src="~/img/Icons/procurar(1).png" width="20px"/></a>
+                        </li>
+						<li class="nav-item">
+                            <button class="btn-warning" style="position: relative; top: 50px; left:300px;display:flex; border-radius:15px;">
+                                <img src="~/img/Icons/cart.png" width="20" style="position:relative; top:3px;"/>
+                                <p>Carrinho</p>
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -149,7 +175,14 @@
     </header>
     @RenderBody()
     <footer>
-
+        <div class="left">
+            <div class="social">
+                <img src="~/img/Cem Porcento_logo.png" width="150" height="auto" alt="Alternate Text" />
+            </div>
+            <p>test</p>
+        </div>
+        <div class="midle">2</div>
+        <div class="right">3</div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
