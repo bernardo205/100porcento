@@ -14,8 +14,5 @@ namespace CemPorcento.Controllers
         [HttpGet("/product")]
         public IActionResult Product() => View();
 
-
-        [HttpGet("/ff")]
-        public IActionResult footer() => View();
     }
 }

@@ -333,6 +333,14 @@
       "PackagePath": "staticwebassets\\img\\leaves-background-prepare-tea_23-2147862444.jpg"
     },
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\payment.jpg",
+      "PackagePath": "staticwebassets\\img\\payment.jpg"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\tea-leaves-background_23-2147855966.jpg",
       "PackagePath": "staticwebassets\\img\\tea-leaves-background_23-2147855966.jpg"
     },

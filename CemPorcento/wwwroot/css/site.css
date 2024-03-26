@@ -207,13 +207,43 @@ nav {
 }
 
 .column a:hover {
-    background-color: #ddd;
+    color: darkgreen;
 }
 
 
 
 
-footer{
+footer {
     background-color: white;
     display: flex;
+}
+.left{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.left p{
+    margin: 3%;
+    font-size: 10px;
+    width: 220px;
+    position: relative;
+    top: 15px;
+}
+
+.midle {
+    width: 60%;
+}
+
+.midle a{
+    margin: 10%;
+    padding: 0%;
+    color: forestgreen;
+    font-size: 14px;
+
+}
+
+.right logo{
+    position: relative;
+    top: 150px;
+    right: 30%;
 }
