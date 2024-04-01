@@ -3,6 +3,10 @@ html {
   overflow-x: hidden    
 }
 
+html::-webkit-scrollbar {
+    display:none;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -31,7 +35,7 @@ body {
 header {
     position: fixed;
     z-index: 99999;
-    height: 140px;  
+    height: 140px; 
 }
 
 .top-section {
@@ -168,7 +172,6 @@ nav {
     pointer-events: none;
 }
 
-
 .dropdown-submenu {
     height: 500px;
 }
@@ -209,9 +212,6 @@ nav {
 .column a:hover {
     color: darkgreen;
 }
-
-
-
 
 footer {
     background-color: white;

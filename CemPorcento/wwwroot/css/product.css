@@ -83,16 +83,78 @@
 .info-card {
     height: 10.5%;
 
-    background-color: #f0f0f0;
     border: 1px dashed #ccc;
-    text-align: center;
-    color: #999;
     border-radius: 15px;
 }
 
+.i-c-1{
+    font-size: 15px;
+    height: 20px;
+}
+.i-c-2{
+    font-size: 35px;
+    padding: 0px;
+}
+.i-c-3{
+    height:80px;
+}
+.i-c-4{ 
+    height:30px;
+    font-size: 15px;
+
+}
+
+.sp-1{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+
+.sp-2{
+    background-color: mediumvioletred;
+    color: white;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+
+.i-c-5{
+    font-size: 40px;
+    color: green;
+    height: 50px;   
+}
+
+.min-price{
+    font-size: 17px;
+    color: black;
+}
 .i-c-6 {
-    height: 25%;
+    height: 450px;
+
+
     border: 1px dashed #ccc;
+}
+
+.quant{
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.quant p{
+    border: 1px solid #ccc;
+    padding: 0px 20px 0px 10px;
+
+}
+
+.quant span {
+    background-color: mediumvioletred;
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    position: relative;
+    left: 15px;
 }
 
 .i-c-6 p {
@@ -107,6 +169,12 @@
 
 .mini-cards div {
     width: 50%;
+}
+
+.i-c-img {
+    border: 1px dashed #ccc;
+    height: 45%;
+    width: 200px;
 }
 
 .description-area{

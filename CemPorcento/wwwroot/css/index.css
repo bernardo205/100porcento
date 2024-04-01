@@ -1,4 +1,8 @@
-﻿.big-img {
+﻿main{
+    height: 1100px;
+}
+
+.big-img {
     position:relative;
     top:0px;
     width: 100%;
@@ -330,7 +334,9 @@
 .s-c-p{
     position: relative;
     top: 150px;
+    left: 150px;
     color: #eead2d;
+    
 }
 
 .s-c {
