@@ -38,9 +38,11 @@
                 <div class="info-area">
                     <div class="info-card i-c-1">CEM PORCENTO</div>
                     <div class="info-card i-c-2"><strong>Go Snack! Cacau e Amendoin Express 120g</strong></div>
-                    <div class="info-card i-c-3"><strong style="color:green;">&check;</strong>Ingredienter 100% naturais 
-                                           <br /><strong style="color:green;">&check;</strong>Sem adição de açúcar
-                                           <br /><strong style="color:green;">&check;</strong>Prático e nutritivo </div>
+                    <div class="info-card i-c-3">
+						<span><strong style="color:green;">&check;</strong>Ingredienter 100% naturais</span><br />
+                        <span><strong style="color:green;">&check;</strong>Sem adição de açúcar</span ><br />
+						<span><strong style="color:green;">&check;</strong>Prático e nutritivo</span> 
+                    </div>
                     <div class="info-card i-c-4"><span class="sp-1">BESTSELLER</span>  <span class="sp-2">-10%</span></div>
                     <div class="info-card i-c-5">&euro;1.79 <s class="min-price"> &euro;1.99</s></div>
                     <div class="info-card i-c-6">
@@ -48,21 +50,25 @@
                             <p>x1 <br /> &euro;1.79 /u</p>
                             <p>x12 <span>-5%</span> <br /> &euro;1.70 /u</p>
                         </div>
-                        <p style="color:red">&heartsuit;  Combinação perfeita de prazer </p>
+                        <p class="i-c-p" style="color:red">&heartsuit;  Combinação perfeita de prazer </p>
                         <div class="mini-cards">
                             <div>
-                                <div class="i-c-img">img here</div>
+                                <img class="i-c-img">
                                 <p><strong style="color: green; font-size: 20px;">&euro;9.88</strong><br /> x1 Go Snack e Amendoin Express 120g + x1 Batido Diet Morango 7 saquetas</p>
                             </div>
                             <div>
-                                <div class="i-c-img">img here</div>
+                                <img class="i-c-img">
                                 <p><strong style="color: green; font-size: 20px;">&euro;2.98</strong><br /> x1 Go Snack e Amendoin Express 120g + x1 Batido Diet Cenoura 7 saquetas</p>
                             </div>
                         </div>
                     </div>
                     <div class="info-card i-c-7" style="display: flex; gap: 10%; height: 45px;">
-                        <p style=" border: 1px solid gray;width: 50%; height: 45px; text-align:center; padding:1.5%">-  |  1  |  +</p>
-                        <button class="btn-warning" style="display:flex; border-radius:15px; height:45px;width: 50%; align-items:center ;padding:1.5%">
+                        <div class="counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                        </div>
+                        <button class="btn-warning" style="display:flex; border-radius:15px; height:45px;width: 50%; justify-content: center ;padding:1.5%">
                             <img src="~/img/Icons/cart.png" width="20" style="position:relative; top:3px;" />
                             Adicionar
                         </button>
@@ -139,58 +145,81 @@
                     </div>
                 </div>
             </div>
-        
         </div>
     </div>
 
     <div class="sugestion" >
         <p style="margin-left:5%">Sugestões da mesma categoria</p>
-        <div class="card-group d-flex flex-row" style="margin: 0% 5%;">
-            <div class="card">
+        <div class="card-group d-flex flex-row gap-3" style="margin: 0% 5%;">
+            <div class="card s-c">
                 <img src="..." class="card-img-top" alt="...">
-                <div class="card-title">&euro;3.29</div>
+                <div class="card-title price">&euro;3.29</div>
                 <div class=" card-text">
                     Aveia + Deliciosa Cacau Instantânia 500gr
-                    <br/>CEM PORCENTO</div>
+                    <br /><span style="font-size:10px;">CEM PORCENTO</span>
+                </div>
             </div>
-            <div class="card">
+            <div class="card s-c">
                 <img src="..." class="card-img-top" alt="...">
-                <div class="card-title">&euro;1.99</div>
+                <div class="card-title price">&euro;1.99</div>
                 <div class=" card-text">
                     Aveia + Nutritiva Instantânia 500gr
-                    <br/>CEM PORCENTO</div>
+                    <br /><span style="font-size:10px;">CEM PORCENTO</span>
+                </div>
             </div>
-            <div class="card">
+            <div class="card s-c">
                 <img src="..." class="card-img-top" alt="...">
-                <div class="card-title">&euro;2.49</div>
+                <div class="card-title price">&euro;2.49</div>
                 <div class=" card-text">
-                    Bplacha Aurora Original sem Glúten 100gr
-                    <br/>CEM PORCENTO</div>
+                    Bolacha Aurora Original sem Glúten 100gr
+                    <br /><span style="font-size:10px;">CEM PORCENTO</span>
+                </div>
             </div>
-            <div class="card">
+            <div class="card s-c">
                 <img src="..." class="card-img-top" alt="...">
-                <div class="card-title">&euro;2.49</div>
+                <div class="card-title price">&euro;2.49</div>
                 <div class=" card-text">
                     Bolacha Cacau Sem Glúten 100gr
-                    <br/>CEM PORCENTO</div>
+                    <br /><span style="font-size:10px;">CEM PORCENTO</span>
+                </div>
             </div>
-            <div class="card">
+            <div class="card s-c">
                 <img src="..." class="card-img-top" alt="...">
-                <div class="card-title">&euro;2.99</div>
+                <div class="card-title price">&euro;2.99</div>
                 <div class=" card-text">
                     Bolacha Maria Sem Açúcar e Sem Glúten 200gr
-                    <br/>CEM PORCENTO</div>
+                    <br /><span style="font-size:10px;">CEM PORCENTO</span>
+                </div>
             </div>
-            <div class="card">
+            <div class="card s-c">
                 <img src="..." class="card-img-top" alt="...">
-                <div class="card-title">&euro;2.49</div>
+                <div class="card-title price">&euro;2.49</div>
                 <div class2=" card-text">
                     Choco-Balls Sem Glúten 250gr
-                    <br/>CEM PORCENTO</div>
+                    <br /><span style="font-size:10px;">CEM PORCENTO</span>
+                </div>
             </div>
         </div>
     </div>
 
 
+    <script>
+        function increaseCount(a, b) {
+            var input = b.previousElementSibling;
+            var value = parseInt(input.value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            input.value = value;
+        }
 
+        function decreaseCount(a, b) {
+            var input = b.nextElementSibling;
+            var value = parseInt(input.value, 10);
+            if (value > 1) {
+                value = isNaN(value) ? 0 : value;
+                value--;
+                input.value = value;
+            }
+        }
+    </script>
 </main>

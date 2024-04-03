@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "75b5PhDbOVBfpUvo17gwO0lYFcopz/6foiXxVMmcSlU=",
+  "Hash": "0ShPC3zH68wTgMf16W1E5sW+9h1wTtwoZ0s9ppPRRkA=",
   "Source": "CemPorcento",
   "BasePath": "_content/CemPorcento",
   "Mode": "Default",
@@ -1062,12 +1062,12 @@
       "OriginalItemSpec": "wwwroot\\img\\Icons\\menos.png"
     },
     {
-      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\menu(5).png",
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\menu.png",
       "SourceId": "CemPorcento",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\",
       "BasePath": "_content/CemPorcento",
-      "RelativePath": "img/Icons/menu(5).png",
+      "RelativePath": "img/Icons/menu.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1078,7 +1078,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Icons\\menu(5).png"
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\menu.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\new-product.png",

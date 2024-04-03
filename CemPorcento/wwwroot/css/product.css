@@ -55,9 +55,10 @@
 .preview-img div {
     width: 200px;
     height: 200px;
-
     background-color: #f0f0f0;
-    border: 1px dashed #ccc;
+    margin-bottom: 15px;
+
+    
     text-align: center;
     line-height: 200px;
     color: #999;
@@ -68,7 +69,7 @@
     width: 80%;
 
     background-color: #f0f0f0;
-    border: 1px dashed #ccc;
+    
     text-align: center;
     line-height: 200px;
     color: #999;
@@ -78,13 +79,6 @@
 .info-area {
     width: 500px;
     height: 1060px;
-}
-
-.info-card {
-    height: 10.5%;
-
-    border: 1px dashed #ccc;
-    border-radius: 15px;
 }
 
 .i-c-1{
@@ -98,6 +92,11 @@
 .i-c-3{
     height:80px;
 }
+
+.i-c-3 span {
+   margin: 5px;
+}
+
 .i-c-4{ 
     height:30px;
     font-size: 15px;
@@ -128,10 +127,10 @@
     color: black;
 }
 .i-c-6 {
-    height: 450px;
+    height: 500px;
 
 
-    border: 1px dashed #ccc;
+  
 }
 
 .quant{
@@ -157,24 +156,71 @@
     left: 15px;
 }
 
-.i-c-6 p {
-    height: 10%;
+.i-c-p {
+    margin-top: 20px;
+    height: 10px;
 }
 
 .mini-cards {
     display: flex;
-    border: 1px dashed #ccc;
+    gap: 20px;
     height: 90%;
 }
 
 .mini-cards div {
     width: 50%;
+    height: 400px;
 }
 
-.i-c-img {
-    border: 1px dashed #ccc;
-    height: 45%;
-    width: 200px;
+    .mini-cards img {
+        width: 100%;
+        height: 70%;
+
+        background-color: #f0f0f0;
+    }
+
+.mini-cards p{
+    text-align: start;
+    font-size: 15px;
+}
+
+.counter {
+    width: 170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #777;
+    border-radius: 16px;
+}
+
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #777;
+    appearance: none;
+    outline: 0;
+}
+
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #777;
+    user-select: none;
+}
+
+.i-c-8{
+    background-color: silver;
+    color: white;
+    text-align: center;
+    margin-top:5px;
+    height: 25px;
+    border-radius: 16px;
 }
 
 .description-area{
@@ -185,4 +231,15 @@
     position: relative;
     top: 0px;
     margin-bottom: 50px;
+}
+
+.s-c img{
+    background-color: #f0f0f0;
+    height: 60%;
+}
+
+.s-c .price{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
 }

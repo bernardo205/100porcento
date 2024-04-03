@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\100porcento\\cemporcento\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3AE6E5EA-7606-4753-A5DA-EA0563FC42A5}|CemPorcento.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +40,9 @@
               "RelativeDocumentMoniker": "Views\\Home\\Product.cshtml",
               "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Home\\Product.cshtml",
               "RelativeToolTip": "Views\\Home\\Product.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAADYAAABQAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACkAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T14:53:59.675Z",
+              "WhenOpened": "2024-04-03T16:29:33.01Z",
               "EditorCaption": ""
             },
             {
@@ -45,9 +53,35 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\product.css",
               "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\product.css",
               "RelativeToolTip": "wwwroot\\css\\product.css",
-              "ViewState": "AQIAAJoAAAAAAAAAAAAAALAAAAARAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAwGAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-01T14:53:56.602Z",
+              "WhenOpened": "2024-04-03T16:23:54.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAAFoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T13:48:57.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "wwwroot\\css\\index.css",
+              "ViewState": "AQIAAHsBAAAAAAAAAAAAAI4BAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-02T13:48:56.45Z",
               "EditorCaption": ""
             }
           ]

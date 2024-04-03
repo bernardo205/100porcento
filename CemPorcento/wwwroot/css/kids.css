@@ -89,7 +89,7 @@ main a:hover {
 
 .c-3, .c-4 {
     width: 193.68px;
-    height: 299.04px;
+    height: 310px;
 
 }
 
@@ -98,7 +98,7 @@ main a:hover {
 
     text-align: center;
     color: #999;
-    height: 65%
+    height: 190px;
 }
 
 .c-4-img {
@@ -123,13 +123,45 @@ main a:hover {
     height: 70%;
 }
 
-
-/*.page-btn {
-    position: relative;
-    top: 25px;
-    left: 450px;
+.badges, .price, .name, .brand {
+    margin: 0px 0px 5px 0px;
 }
 
-    .page-btn button {
-        background-color: lawngreen;
-    }*/
+.price {
+    color: green;
+    font-size: 25px;
+}
+
+.price .old {
+    color: black;
+    font-size: 10px;
+}
+
+.badges span{
+    border-radius:6px;
+    padding: 1px 5px;
+}
+
+.best{
+    border: 1px solid black;
+}
+
+.discount{
+    color: white;
+    background-color: orangered;
+}
+
+.new{
+    border: 1px dashed blue;
+    color: blue;
+}
+
+.brand{
+    font-size:10px;
+}
+
+.iva{
+    background-color: yellow;
+}
+
+.deal{}

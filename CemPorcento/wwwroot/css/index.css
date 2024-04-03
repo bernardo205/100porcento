@@ -151,78 +151,91 @@
     height: 100%;
 }
 
+.second-card-area .badges, .price, .name, .brand {
+    margin: 0px;
+}
+
+.second-card-area .badges span {
+    border-radius: 6px;
+    padding: 1px 5px;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+.second-card-area .new {
+    border: 1px dashed blue;
+    color: blue;
+}
+
+.second-card-area .discount {
+    color: white;
+    background-color: orangered;
+}
+
+.second-card-area .price {
+    color: green;
+    font-size: 25px;
+}
+
+.second-card-area .old {
+    color: black;
+    font-size: 10px;
+}
+
+.second-card-area .brand {
+    font-size: 10px;
+}
+
 .third-card-area{
-    height: 648px;
-    background-color: lightgray;
-    mask: url(../img/bar.png);
-    mask-size: 100%;
-    mask-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
+      position: relative;
+      top: -70px;
+}
+
+.main{
+    background-color: whitesmoke; 
 }
 
 .slogan {
-    color: green;
     position: relative;
-    top: -490px;
-    text-align: center;
-    z-index: 2;
+    top: 50px;
 }
 
-.slogan p {
-    font-size:35px;
-}
+    .slogan p {
+        font-size: 35px;
+        margin: 0px;
+        color: green;
+        text-align: center;
+    }
 
-.slogan strong {
-    font-size: 100px;
-    position: relative;
-    top: -50px;
-}
+    .slogan strong {
+        font-size: 100px;
+    }
 
-.slogan .citacao{
-    color: darkgreen;
-    font-size: 15px;
-    width: 480px;
-    position: relative;
-    top: -75px;
-    left: 35%;  
+    .slogan .citacao {
+        position: relative;
+        left: 550px;
+        bottom: 10px;
+        font-size: 20px;
+        width: 450px;
+    }
 
-}
-
-.slogan .name{
-    color: black;
-    font-size: 10px;
-    position: relative;
-    top: -95px;
-}
+    .slogan .name {
+        font-size: 10px;
+    }
 
 .area-card {
     margin: 5%;
     height: 300px;
-    position:relative;
-    z-index: 2;
-    top: -600px;
 }
 
-.extend-mask {
-    height: 648px;
-    background-color: lightgray;
-    mask: url(../img/bar.png);
-    mask-size: 100%;
-    mask-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-    top: -1200px;
-}
-
-.top, .bottom{
+.top, .bottom {
     height: 50%;
-    display:flex;
+    display: flex;
     gap: 2.5%;
 }
 
-.top{
-    margin-bottom:5px;
+.top {
+    margin-bottom: 5px;
 }
 
 .t-c-1, .t-c-2 {
@@ -230,30 +243,39 @@
     border: 1px dashed #ccc;
     background-color: #f0f0f0;
     border-radius: 15px;
+    position:relative;
+    z-index:11
 }
 
 .t-c-1 {
     width: 30%;
- 
 }
 
 .t-c-2 {
     width: 60%;
 }
 
-.fourth-card-area {
+.top-mask, .bottom-mask {
+    width: 1550px;
+    height: 150px;
+    background-color: whitesmoke;
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+}
+
+.top-mask {
+    mask-position: 0% 0%;
+    mask-image: url(../img/bar.png);
     position: relative;
-    top: -1200px;
+    bottom: -45px
 }
 
-.fourth-card-area p{
-    font-size: 15px;
-    margin-left: 50px;
-}
-
-.fourth-card-area strong {
-    font-size: 30px;
-    color: darkorange;
+.bottom-mask {
+    mask-image: url(../img/header.png);
+    mask-position: 0% 100%;
+    position: relative;
+    top: -110px;
+    z-index:10
 }
 
 .f-card-area {
@@ -261,6 +283,8 @@
     height: 380px;
     display: flex;
     gap: 3px;
+    position:relative;
+    top: -250px;
 }
 
 .f-card {
@@ -271,19 +295,65 @@
     background-color: #f0f0f0;
     border: 1px dashed #ccc;
     text-align: center;
-    color: #999;
     height: 60%;
 }
 
 .f-c-text {
     border: 1px dashed #ccc;
-    color: #999;
-    height:40%
+    height:40%; 
 }
 
-.fift-card-area {
-    position: relative;
-    top: -1200px;
+.f-c-text span {
+    border-radius: 6px;
+    padding: 1px 5px;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+.f-c-text .price {
+    color: green;
+    font-size: 25px;
+}
+
+.f-c-text .old {
+    color: black;
+    font-size: 10px;
+}
+
+.f-c-text .best {
+    border: 1px solid black;
+}
+
+.f-c-text .discount {
+    color: white;
+    background-color: orangered;
+}
+
+.f-c-text .new {
+    border: 1px dashed blue;
+    color: blue;
+}
+
+.f-c-text .brand {
+    font-size: 10px;
+}
+
+.f-c-text .iva {
+    background-color: yellow;
+}
+
+.f-c-text .deal {
+    color: white;
+    background-color: lawngreen;
+}
+
+.f-c-text .end{
+    color: white;
+    background-color: red;
+}
+
+.f-c-text .code{
+    border: 1px dashed blue;
 }
 
 .fift-card-area .text{
@@ -294,7 +364,9 @@
     margin: 0.5%;
     height: 250px;
     display: flex;
-    gap: 0.1%
+    gap: 0.1%;
+    position: relative;
+    top: -250px;
 }
 
 .fi-c {
@@ -309,7 +381,8 @@
     height: 30px;
     width: 340px;
     position: relative;
-    left: 65%;
+    left: 70%;
+    top: -250px;
     display: flex;
     gap: 10px;
 }
@@ -322,13 +395,13 @@
 }
 
 .sixt-card-area {
-    height: 648px;
-    background-color: lightgray;
+    height: 680px;
+    background-color: whitesmoke;
     mask: url(../img/bar.png);
     mask-size: 100%;
-    mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
     position: relative;
-   top: -1100px;
+    top: -210px;
 }
 
 .s-c-p{

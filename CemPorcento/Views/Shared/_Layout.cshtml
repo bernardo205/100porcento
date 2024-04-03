@@ -9,184 +9,157 @@
     <link rel="stylesheet" href="~/CemPorcento.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>   
-        <div class="top-section">
-            <div class="icon-1"></div>
-            <p class="h-p-1">
-                Envio grátis paea compras <strong>>25&euro;</strong>(PT Continental). 
-                Termine a sua encomenda em <strong><span id="timer"></span></strong> 
-                e receba-a amanhã! 
-            </p>
-            <div class="icon-2"></div>
-            <div class="dropdown">
-                <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Ajuda? Apoio ao cliente
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-            <div class="icon-3"></div>
-            <p class="h-p-2">Login/Conta</p>
-            <div class="dropdown">
-                <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    EUR &euro;                                                                                                                                  
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">USD &dollar;</a></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="~/img/Icons/portugal_8603465.png" style="width: 25px;">
-                    PT
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">
-                            <img src="~/img/Icons/england-flag_11784787.png" style="width: 25px;">
-                            EN
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        
-        <ul class="nav n-m">
-            <li class="nav-item dropdown">
-				<button class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            Alimentação Saudavel &raquo;
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu" style="width:800px">
-                            <div class="dropdown-content">
-                                <div class="row">
-                                    <div class="column">
-                                        <a href="#" class="disabled">Pequenos-almoçps e Sementes</a>
-                                        <a href="#" class="disabled">Bolachas e Biscoitos</a>
-                                        <a href="#" class="disabled">Snacks e Barras</a>
-                                        <a asp-action="Kids" asp-controller="Home">Especiais Criança</a>
-                                        <a href="#" class="disabled">Pão e Tostas</a>
-                                        <a href="#" class="disabled">Doces e Compotas</a> 
-                                        <a href="#" class="disabled">Sobremesas\</a>
-                                        <a href="#" class="disabled">Chocolates e Adoçantes</a>
-                                    </div>
-                                    <div class="column">
-                                        <a href="#" class="disabled">Sumos e Bebidas Vegetais</a>
-                                        <a href="#" class="disabled">Pronto-a-comer</a>
-                                        <a href="#" class="disabled">Cereais e Leguminosas </a>
-                                        <a href="#" class="disabled">Flocos e Farinhas</a>
-                                        <a href="#" class="disabled">For,ato Económico</a>
-                                        <a href="#" class="disabled">Link 3</a>
-                                    </div>
-                                    <div class="column">
-                                        <a href="#" class="disabled">Ver todos</a>
-                                        <a href="#" class="disabled">produtos em promoção</a>
-                                        <a href="#" class="disabled">novidades</a>
-                                    </div>
-                                </div>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            Alimentação sem Glúten &raquo;
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu">
-                            <li>
-                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            Chás e Infusões &raquo;
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu">
-                            <li>
-                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            Suplementos Alimentares &raquo;
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu ">
-                            <li>
-                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            Cosmética Natural &raquo;
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu">
-                            <li>
-                                <a class="dropdown-item disabled" href="#">Submenu item 1</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="dropdown-item">
-                            Desifetantes
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="dropdown-item">
-                            Livros
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-		<div class="mask"></div>
-		<nav class="navbar navbar-expand-lg navbar-light bar ">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        
-                        <li class="nav-item" style="position: relative; top: 50px;">
-                            <a class="nav-link active disabled" aria-current="page" href="#" >Alimentação</a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px;">
-                            <a class="nav-link" href="#" >Suplementos</a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px;">
-                            <a class="nav-link disabled" href="#" >Cosmetica</a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px;">
-                            <a class="nav-link disabled" href="#" >Nutrição despostiva</a>
-                        </li>
-                        <li class="nav-item nav-img" style="position: relative; left: 290px; top: 43px;">
-                            <a class="nav-link" asp-action="Index" asp-controller="Home"><img src="~/img/Cem Porcento_logo.png" width="110" height="auto" /></a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px; left:400px;">
-                            <a class="nav-link disabled" href="#" >Slim Verão</a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px; left:400px;">
-                            <a class="nav-link disabled" href="#" >Novas Marinheiras</a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px; left:400px;">
-                            <a class="nav-link disabled" href="#" ><img src="~/img/Icons/promotions.png" width="20px" /></a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px; left:400px;">
-                            <a class="nav-link disabled" href="#" ><img src="~/img/Icons/procurar(1).png" width="20px"/></a>
-                        </li>
-                        <li class="nav-item" style="position: relative; top: 50px; left:400px;">
-                            <button class="btn-warning" style="display:flex; border-radius:15px;">
-                                <img src="~/img/Icons/cart.png" width="20" style="position:relative; top:3px;"/>
-                                <p>Carrinho</p>
-                            </button>
+    <header>
+        <div class="mask"></div>
+        <div class="inside-mask">
+
+            <div class="top-section">
+                <div class="icon-1"></div>
+                <p class="h-p-1">
+                    Envio grátis para compras <strong>>25&euro;</strong>(PT Continental).
+                    Termine a sua encomenda em <strong><span id="timer"></span></strong>
+                    e receba-a amanhã!
+                </p>
+                <div class="icon-2"></div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ajuda? Apoio ao cliente
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                </div>
+                <div class="icon-3"></div>
+                <p class="h-p-2">Login/Conta</p>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        EUR &euro;
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">USD &dollar;</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle disabled" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="margin-top: -3px;">
+                        <img src="img/Icons/portugal_8603465.png" style="width: 25px;">
+                        PT
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <img src="img/Icons/england-flag_11784787.png" style="width: 25px;">
+                                EN
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+            <div class="bottom-section" style="display: flex;">
+                <div class="menu dropdown">
+                    <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Alimentação Saudavel &raquo;
+                            </a>
+                            <ul class="dropdown-menu dropdown-submenu" style="width:800px">
+                                <div class="dropdown-content">
+                                    <div class="row">
+                                        <div class="column">
+                                            <a href="#" class="disabled">Pequenos-almoços e Sementes</a>
+                                            <a href="#" class="disabled">Bolachas e Biscoitos</a>
+                                            <a href="#" class="disabled">Snacks e Barras</a>
+                                            <a asp-action="Kids" asp-controller="Home">Especiais Criança</a>
+                                            <a href="#" class="disabled">Pão e Tostas</a>
+                                            <a href="#" class="disabled">Doces e Compotas</a>
+                                            <a href="#" class="disabled">Sobremesas</a>
+                                            <a href="#" class="disabled">Chocolates e Adoçantes</a>
+                                        </div>
+                                        <div class="column">
+                                            <a href="#" class="disabled">Sumos e Bebidas Vegetais</a>
+                                            <a href="#" class="disabled">Pronto-a-comer</a>
+                                            <a href="#" class="disabled">Cereais e Leguminosas </a>
+                                            <a href="#" class="disabled">Flocos e Farinhas</a>
+                                            <a href="#" class="disabled">Formato Económico</a>
+                                            <a href="#" class="disabled">Profissional</a>
+                                        </div>
+                                        <div class="column">
+                                            <a href="#" class="disabled">Ver todos</a>
+                                            <a href="#" class="disabled">produtos em promoção</a>
+                                            <a href="#" class="disabled">novidades</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Alimentação sem Glúten &raquo;
+                            </a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Chás e Infusões &raquo;
+                            </a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Suplementos Alimentares &raquo;
+                            </a>
+                            <ul class="dropdown-menu dropdown-submenu ">
+                                <li>
+                                    <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Cosmética Natural &raquo;
+                            </a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item disabled" href="#">Submenu item 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                Desifetantes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                Livros
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="l1" href="#">Alimentação</a>
+                <a class="l2" href="#">Suplementos</a>
+                <a class="l3" href="#">Cosmética</a>
+                <a class="l4" href="#">Nutrição Desportiva</a>
+                <a class="logo"><img src="~/img/Cem Porcento_logo.png" alt="" width="150" height="150"></a>
+                <a class="l5" href="">Slim Verão&#128262;</a>
+                <a class="l6" href="">Novas Marinheiras</a>
+                <a><img src="img/promotions.png" alt="" width="20"></a>
+                <a><img src="img/procurar(1).png" alt="" width="20"></a>
+                <button class="cart-btn">
+                    <div class="cart-mask"></div>
+                    <p>Carrinho</p>
+
+                </button>
+            </div>
+        </div>
     </header>
     @RenderBody()
     <footer>
