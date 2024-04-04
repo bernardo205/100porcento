@@ -37,6 +37,22 @@
       "PackagePath": "staticwebassets\\img\\2211.w058.n003.30B.p1.30.jpg"
     },
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\3ec9b8ac.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\3ec9b8ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\606a7200.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\606a7200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\7186f611.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\7186f611.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\725f55f2.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\725f55f2.jpg"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\Asset 1.png",
       "PackagePath": "staticwebassets\\img\\Assets\\Asset 1.png"
     },
@@ -51,6 +67,38 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\Asset 4.png",
       "PackagePath": "staticwebassets\\img\\Assets\\Asset 4.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\af197bff.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\af197bff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\b79f4cb8.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\b79f4cb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\bolo-chocolate-vegan-de-natal.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\bolo-chocolate-vegan-de-natal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\c21a08d4.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\c21a08d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\d15a7166 (1).jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\d15a7166 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\d15a7166.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\d15a7166.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\peras-com-sumo-de-uva.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\peras-com-sumo-de-uva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Assets\\sangria-sem-alcool.jpg",
+      "PackagePath": "staticwebassets\\img\\Assets\\sangria-sem-alcool.jpg"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Cem Porcento_logo.png",
@@ -311,6 +359,126 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Icons\\wall-clock_833602.png",
       "PackagePath": "staticwebassets\\img\\Icons\\wall-clock_833602.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\acucar-de-coco-bio-1kg.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\acucar-de-coco-bio-1kg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\anis-estrelado.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\anis-estrelado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\aveia-deliciosa-cacau-instantanea-500g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\aveia-deliciosa-cacau-instantanea-500g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\aveia-nutritiva-instantanea-500g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\aveia-nutritiva-instantanea-500g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\barra-snack-natura-amendoa-e-chocolate-35g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\barra-snack-natura-amendoa-e-chocolate-35g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\batido-diet-morango-7-saquetas.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\batido-diet-morango-7-saquetas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\bolacha-aurora-original-sem-gluten-100g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\bolacha-aurora-original-sem-gluten-100g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\bolacha-cacau-sem-gluten-100g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\bolacha-cacau-sem-gluten-100g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\bolacha-de-milho-bio.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\bolacha-de-milho-bio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\bolacha-maria-sem-acucar-e-sem-gluten-200g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\bolacha-maria-sem-acucar-e-sem-gluten-200g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\champo-solido-lavanda-vegan-100g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\champo-solido-lavanda-vegan-100g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\choco-balls-sem-gluten-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\choco-balls-sem-gluten-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\choco-muesli-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\choco-muesli-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\choco-rice-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\choco-rice-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\chocolate-de-leite-crunchy-proteina-sem-acucar-100g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\chocolate-de-leite-crunchy-proteina-sem-acucar-100g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\cornflakes-sem-gluten-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\cornflakes-sem-gluten-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\cornflakes-zero-acucares-sem-gluten-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\cornflakes-zero-acucares-sem-gluten-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\doce-de-maca-sem-gluten-380g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\doce-de-maca-sem-gluten-380g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\feijao-azuki-bio-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\feijao-azuki-bio-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\feijao-mung-bio-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\feijao-mung-bio-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\flocos-de-aveia-finos-sem-gluten-400g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\flocos-de-aveia-finos-sem-gluten-400g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\flocos-de-aveia-grossos-sem-gluten-400g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\flocos-de-aveia-grossos-sem-gluten-400g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\geleia-real-13-vitaminas-30-capsulas.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\geleia-real-13-vitaminas-30-capsulas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\go-snack-cacau-e-amendoim-express-120g-noBg.png",
+      "PackagePath": "staticwebassets\\img\\Products\\go-snack-cacau-e-amendoim-express-120g-noBg.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\go-snack-cacau-e-amendoim-express-120g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\go-snack-cacau-e-amendoim-express-120g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\go-snack-caju-e-coco-express-120g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\go-snack-caju-e-coco-express-120g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\granola-chocolate-sem-gluten-300g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\granola-chocolate-sem-gluten-300g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\honey-rings-sem-gluten-250g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\honey-rings-sem-gluten-250g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\mini-marinheiras-de-cebola-e-pimento-50g.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\mini-marinheiras-de-cebola-e-pimento-50g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\Products\\sumo-de-cenoura-bio.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\sumo-de-cenoura-bio.jpg"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\100porcento\\CemPorcento\\wwwroot\\img\\bar.png",

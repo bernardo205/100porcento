@@ -2,18 +2,31 @@
     top:0px;
 }
 
+main{height:1900px}
 
 
 .main-part {
-    height: 1500px;
-    position: relative;
-    top: 120px;
+    height: 1000px;
+    background-color: whitesmoke
 }
 
-.links{
-   margin: 5%;
-   display: flex;
-   gap: 600px
+.main-part .mask {
+    width: 1550px;
+    height: 140px;
+    background-color: whitesmoke;
+    mask-image: url(../img/header.png);
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    mask-position: 0% 100%;
+}
+
+.links {
+    position: relative;
+    top: 120px;
+    margin: 5%;
+    display: flex;
+    gap: 600px;
+    margin-bottom: 210px;
 }
 
 .links nav{
@@ -37,48 +50,41 @@
 
 .product-area {
     margin: -5% 5%;
+    display: flex;
+    gap: 100px;
+    height:890px;
 }
 
 .top-product-area {
-    display: flex;
-    gap: 100px;
+    width: 900px;
     height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+    .top-product-area::-webkit-scrollbar {
+        display: none;
+    }
 
 .img-area {
     width: 800px;
     height: 750px;
     display: flex;
-    gap: 50px;
 }
 
-.preview-img div {
+.preview-img img {
     width: 200px;
     height: 200px;
-    background-color: #f0f0f0;
     margin-bottom: 15px;
-
-    
-    text-align: center;
-    line-height: 200px;
-    color: #999;
-    border-radius: 15px;
 }
 
 .product-img {
-    width: 80%;
-
-    background-color: #f0f0f0;
-    
-    text-align: center;
-    line-height: 200px;
-    color: #999;
-    border-radius: 15px;
+    width: 600px;
+    margin-bottom: 20px;
 }
 
 .info-area {
     width: 500px;
-    height: 1060px;
+    height: 700px;
 }
 
 .i-c-1{
@@ -104,8 +110,6 @@
 }
 
 .sp-1{
-    border: 1px solid black;
-    border-radius: 6px;
     padding: 0px 10px;
 }
 
@@ -127,10 +131,7 @@
     color: black;
 }
 .i-c-6 {
-    height: 500px;
-
-
-  
+    height: 350px;
 }
 
 .quant{
@@ -163,21 +164,20 @@
 
 .mini-cards {
     display: flex;
-    gap: 20px;
-    height: 90%;
+    gap: 10px;
+    height: 300px;
 }
 
-.mini-cards div {
-    width: 50%;
-    height: 400px;
+.lt, .rt {
+    width: 245px;
+    height: 150px;
 }
-
-    .mini-cards img {
-        width: 100%;
-        height: 70%;
-
-        background-color: #f0f0f0;
-    }
+.i-c-img{
+    display:flex;
+}
+.i-c-img img {
+    width: 115px;
+}
 
 .mini-cards p{
     text-align: start;
@@ -224,12 +224,14 @@
 }
 
 .description-area{
-    width: 800px;
+    width: 530px;
+    height:700px;
+    background-color: white
 }
 
 .sugestion{
     position: relative;
-    top: 0px;
+    top: 250px;
     margin-bottom: 50px;
 }
 

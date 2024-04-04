@@ -140,12 +140,12 @@ header button {
 
 .logo {
     position: relative;
-    left: 10%;
+    left: 13%;
     top: -30px;
 }
 
 .l5 {
-    margin-left: 300px;
+    margin-left: 23%;
 }
 
 .cart-btn {
@@ -245,31 +245,6 @@ header button {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: white;
     display: flex;
@@ -302,4 +277,8 @@ footer {
 .right .logo{
     position: relative;
     left: 150px;
+}
+/**/
+.card {
+    border: none
 }
