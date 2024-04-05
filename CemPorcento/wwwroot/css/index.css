@@ -17,8 +17,6 @@
     display: flex;
 }
 
-
-
 .first-card-area .no-img {
     width: 25%;
     height: 144px;
@@ -55,36 +53,45 @@
 
 .second-card-area {
     margin: -50px 5% 70px;
-    height: 500px;
+    height: 600px;
+    width: 1400px;
     display: flex;
-    gap: 3%;
-    
+    flex-direction: row;
+    gap: 50px;
 }
 
-.c-1 {
-    width: 60%;
+.col-l{
+    width: 1000px;
+    display:flex;
+    gap: 50px;
+}
+
+.col-0, .col-1 {
+    width: 450px;
 }
 
 .c-1-img {
     background-color: #f0f0f0;
-
     text-align: center;
     color: #999;
     height: 80%
 }
 
-.col-1, .col-2 {
-    width: 30%;
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    column-gap: 100px;
 }
 
 .sub-col {
     display: flex;
-    gap: 11.98px;
+    gap: 12px;
+    margin-top: 100px;
 }
 
 .c-2 {
-    height: 174.44px;
-    margin-bottom: 24.92px;
+    height: 175px;
 
     display: flex;
 }
@@ -121,19 +128,20 @@
 }
 
 .c-5 {
-    height: 299.04px;
+    height: 300px;
     margin-bottom: 24.92px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .c-5-img {
-    margin-left: 100px;
     height: 70%;
 }
 
 .c-6 {
-    height: 174.44px;
-
+    height: 175px;
+    margin-top: 50px;
     display: flex;
 }
 
@@ -195,28 +203,28 @@
     top: 50px;
 }
 
-    .slogan p {
-        font-size: 35px;
-        margin: 0px;
-        color: green;
-        text-align: center;
-    }
+.slogan p {
+    font-size: 35px;
+    margin: 0px;
+    color: green;
+    text-align: center;
+}
 
-    .slogan strong {
-        font-size: 100px;
-    }
+.slogan strong {
+    font-size: 100px;
+}
 
-    .slogan .citacao {
-        position: relative;
-        left: 550px;
-        bottom: 10px;
-        font-size: 20px;
-        width: 450px;
-    }
+.slogan .citacao {
+    position: relative;
+    left: 550px;
+    bottom: 10px;
+    font-size: 20px;
+    width: 450px;
+}
 
-    .slogan .name {
-        font-size: 10px;
-    }
+.slogan .name {
+    font-size: 10px;
+}
 
 .area-card {
     margin: 5%;
@@ -434,4 +442,68 @@
     background-color: white;
 
     color: black;
+}
+
+
+
+@media screen and (max-width: 1100px){
+    div .badges{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .discount{
+        width: 50px;
+    }
+
+
+    .col-0, .col-1, .col-2 {
+        height: 500px;
+    }
+
+    .sub-col{
+        margin-top: 25px;
+    }
+
+    .c-6{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 972px){
+    .second-card-area {
+        flex-direction: column;
+        width: 900px;
+    }
+
+    .col-0, .col-1{
+        width: 425px;
+    }
+
+    .c-2{
+        width: 400px;
+    }
+
+    .col-2 {
+        flex-direction: row;
+        height: 180px;
+        width: 800px;
+    }
+    .c-5{
+        flex-direction: row;
+        width: 425px;
+        height:175px;
+    }
+
+    .c-5-img{
+        width: 197px;
+        height: 175px;
+    }
+
+    .c-6 {
+        width: 425px;
+        height: 175px;
+        margin: 0px;
+    }
 }
