@@ -2,11 +2,11 @@
     top:0px;
 }
 
-main{height:1900px}
+main{height:2300px}
 
 
 .main-part {
-    height: 1000px;
+    height: 1502px;
     background-color: whitesmoke
 }
 
@@ -18,6 +18,8 @@ main{height:1900px}
     mask-repeat: no-repeat;
     mask-size: 100%;
     mask-position: 0% 100%;
+    position: relative;
+    top: 190px;
 }
 
 .links {
@@ -50,20 +52,16 @@ main{height:1900px}
 
 .product-area {
     margin: -5% 5%;
+    width: 100%;
     display: flex;
-    gap: 100px;
-    height:890px;
+    gap: 50px;
+    height:1200px;
 }
 
 .top-product-area {
-    width: 900px;
+    width: 800px;
     height: 800px;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
-    .top-product-area::-webkit-scrollbar {
-        display: none;
-    }
 
 .img-area {
     width: 800px;
@@ -82,6 +80,12 @@ main{height:1900px}
     margin-bottom: 20px;
 }
 
+.description-area {
+    width: 530px;
+    height: 699px;
+    background-color: white;
+}
+
 .info-area {
     width: 500px;
     height: 700px;
@@ -97,10 +101,11 @@ main{height:1900px}
 }
 .i-c-3{
     height:80px;
+    line-height: 20px;
 }
 
 .i-c-3 span {
-   margin: 5px;
+    margin: 5px;    
 }
 
 .i-c-4{ 
@@ -184,6 +189,12 @@ main{height:1900px}
     font-size: 15px;
 }
 
+.i-c-7 {
+    display: flex;
+    gap: 30px;
+    height: 45px;
+}
+
 .counter {
     width: 170px;
     margin: auto;
@@ -214,6 +225,15 @@ main{height:1900px}
     user-select: none;
 }
 
+main .btn-warning {
+    display: flex;
+    border-radius: 15px;
+    height: 45px;
+    width: 50%;
+    justify-content: center;
+    padding: 1.5%
+}
+
 .i-c-8{
     background-color: silver;
     color: white;
@@ -223,11 +243,7 @@ main{height:1900px}
     border-radius: 16px;
 }
 
-.description-area{
-    width: 530px;
-    height:700px;
-    background-color: white
-}
+
 
 .sugestion{
     position: relative;
@@ -244,4 +260,166 @@ main{height:1900px}
     color: green;
     font-size: 20px;
     font-weight: bold;
+}
+
+
+@media screen and (max-width:1460px){
+    .preview-img {
+        display: none;
+    }
+
+    .top-product-area, .img-area {
+        width: 610px;
+    }
+}
+@media screen and (max-width:1230px){
+    .product-area {
+        gap:0px;
+    }
+}
+
+@media screen and (max-width:1160px){
+    .description-area{
+        width: 460px;
+    }
+
+    .mini-cards{
+        width: 460px;
+    }
+
+    .i-c-2 {
+        font-size: 30px;
+        width: 450px;
+    }
+
+    .i-c-7 {
+        gap: 20px;
+    }
+
+    .counter{
+        margin: 0px;
+    }
+
+    main .btn-warning{
+        width: 40%;
+    }
+
+    .i-c-8{
+        width: 460px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .rt{
+        display: none;  
+    }
+
+    .description-area {
+        width: 350px;
+    }
+
+    .i-c-2 {
+        font-size: 30px;
+        width: 340px;
+    }
+
+    .i-c-7 {
+        gap: 15px;
+    }
+
+    main .btn-warning {
+        width: 30%;
+    }
+
+    .i-c-8 {
+        width: 350px;
+    }
+
+    .mini-cards{
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .product-area {
+        margin: -5% 2%;
+    }
+}
+
+@media screen and (max-width: 970px){
+    main .accordion {
+        display: none;
+    }
+
+
+    .top-product-area, .img-area, .product-img {
+        width: 510px;
+        height: 750px;
+    }
+
+    .back{
+        display: none;
+    }
+    .product-area {
+        height:750px;
+    } 
+    .main-part {
+        height: 1000px;
+    }
+        .main-part .mask{
+            top: 50px;
+        }
+}
+
+@media screen and (max-width: 860px) {
+    .product-area {
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        width: 860px;
+    }
+
+    .main-part{
+        height: 1220px;
+    }
+
+    .product-img{
+        margin: 0px;
+    }
+
+    .description-area, .info-area{
+        width: 700px;
+        height: 270px;
+    }
+
+    .i-c-3, .i-c-6 {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    .product-area { 
+        align-items: start;
+        height: 900px;
+        width: 500px;
+    }
+
+    .main-part {
+        height: 1250px;
+        margin-bottom: -90px;
+    }
+
+    .description-area, .info-area {
+        width: 480px;
+        height: 270px;
+    }
+
+    .main-part .mask {
+        top: 140px;
+    }
+    main{
+        height: 1800px;
+    }
 }
